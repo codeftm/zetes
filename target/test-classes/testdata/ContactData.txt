@@ -1,0 +1,8 @@
+ContactPojo{firstname='Jocelyn', lastname='Rohan', email='JocelynRohan@gmail.com', country='Estonia', company='Schumm-Leffler', message='message', busPhone='1-397-269-7217'}
+ContactPojo{firstname='Andrea', lastname='Rempel', email='AndreaRempel@gmail.com', country='Iraq', company='Ritchie Inc', message='message', busPhone='1-988-033-4014'}
+ContactPojo{firstname='Shasta', lastname='Torp', email='ShastaTorp@gmail.com', country='Swaziland', company='Denesik, Sawayn and Zemlak', message='message', busPhone='027-148-7002'}
+ContactPojo{firstname='Mose', lastname='Hessel', email='MoseHessel@gmail.com', country='Romania', company='Haley and Sons', message='message', busPhone='835-158-0295'}
+ContactPojo{firstname='Roger', lastname='Hickle', email='RogerHickle@gmail.com', country='Singapore', company='Hagenes-Botsford', message='message', busPhone='843-169-4021'}
+ContactPojo{firstname='Stacie', lastname='Rohan', email='StacieRohan@gmail.com', country='Guyana', company='Graham-MacGyver', message='message', busPhone='1-344-597-9035'}
+ContactPojo{firstname='Georgianna', lastname='Schulist', email='GeorgiannaSchulist@gmail.com', country='Monaco', company='Cole LLC', message='message', busPhone='1-636-957-1096'}
+ContactPojo{firstname='Eddie', lastname='Bechtelar', email='EddieBechtelar@gmail.com', country='Netherlands', company='Lynch, Predovic and Towne', message='message', busPhone='196-560-1858'}

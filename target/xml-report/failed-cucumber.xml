@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.252" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="navigations" name="Creating new contact on https://confidens.zetes.com/contact as a user" time="21.077">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.Peopleid.user_click_on_submit_button_and_verifies_confirmation_message(Peopleid.java:123)
+	at ✽.User click on submit button and verifies confirmation message(file:///Users/ftm/Desktop/PROJECTSss/zetes/src/test/resources/features/peopleid.feature:18)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user goes to the url..................................................passed
+When User clicks People ID button...........................................passed
+And User clicks TRUST SERVICES button.......................................passed
+And User clicks CONTACT button..............................................passed
+Then User enters firstname as "firstname"...................................passed
+Then User enters lastname as "lastname".....................................passed
+And User provides email as "email"..........................................passed
+And User enters country name as "country"...................................passed
+When User enters company as "company".......................................passed
+And User enters business phone as "busphone"................................passed
+And User enters own message as "message"....................................passed
+Then User clicks yes or no checkbox.........................................passed
+And User click on submit button and verifies confirmation message...........failed
+]]></system-out>
+</testcase>
+</testsuite>
