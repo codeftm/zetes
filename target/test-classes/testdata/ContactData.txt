@@ -6,3 +6,6 @@ ContactPojo{firstname='Roger', lastname='Hickle', email='RogerHickle@gmail.com',
 ContactPojo{firstname='Stacie', lastname='Rohan', email='StacieRohan@gmail.com', country='Guyana', company='Graham-MacGyver', message='message', busPhone='1-344-597-9035'}
 ContactPojo{firstname='Georgianna', lastname='Schulist', email='GeorgiannaSchulist@gmail.com', country='Monaco', company='Cole LLC', message='message', busPhone='1-636-957-1096'}
 ContactPojo{firstname='Eddie', lastname='Bechtelar', email='EddieBechtelar@gmail.com', country='Netherlands', company='Lynch, Predovic and Towne', message='message', busPhone='196-560-1858'}
+ContactPojo{firstname='Oswaldo', lastname='Jaskolski', email='OswaldoJaskolski@gmail.com', country='Sao Tome/Principe', company='Schneider-Smitham', message='message', busPhone='281-891-0923'}
+ContactPojo{firstname='Sanford', lastname='Dickens', email='SanfordDickens@gmail.com', country='American Samoa', company='Sauer, Kuphal and Walker', message='message', busPhone='734-072-7902'}
+ContactPojo{firstname='Val', lastname='Schimmel', email='ValSchimmel@gmail.com', country='Namibia', company='Kihn, Homenick and Johnston', message='message', busPhone='859.396.6565'}

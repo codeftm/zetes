@@ -1,17 +1,18 @@
 package stepdefinitions;
 
-import io.cucumber.java.After;
+import io.cucumber.java.*;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import utilities.ConfigReader;
 import utilities.Driver;
 
 public class Hooks {
-//    @Before(order=1,value="@navigations")
-//    public void navigateToHomePage(){
-//
-//        Driver.getDriver().get(ConfigReader.getProperty("app_url"));
-//    }
+    @Before(order=1,value="@navigations")
+    public void navigateToHomePage(){
+
+        Driver.getDriver().get(ConfigReader.getProperty("base_url"));
+    }
 
     @After
     public void tearDown(Scenario scenario) {

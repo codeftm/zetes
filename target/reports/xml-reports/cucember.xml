@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="21.076" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="navigations" name="Creating new contact on https://confidens.zetes.com/contact as a user" time="20.914">
+<testsuite name="Cucumber" time="21.497" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="navigations" name="Creating new contact on https://confidens.zetes.com/contact as a user" time="21.331">
 <system-out><![CDATA[
-Given user goes to the url..................................................passed
 When User clicks People ID button...........................................passed
 And User clicks TRUST SERVICES button.......................................passed
 And User clicks CONTACT button..............................................passed

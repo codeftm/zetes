@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class Confirmation {
+public class Confirmation extends CommonPage {
     public Confirmation(){
         PageFactory.initElements(Driver.getDriver(),this);
     }

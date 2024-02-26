@@ -3,7 +3,7 @@ Feature:navigations
 
   @Contact
   Scenario: Creating new contact on https://confidens.zetes.com/contact as a user
-    Given user goes to the url
+#    Given user goes to the url
     When User clicks People ID button
     And User clicks TRUST SERVICES button
     And User clicks CONTACT button
