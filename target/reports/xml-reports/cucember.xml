@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="21.497" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="navigations" name="Creating new contact on https://confidens.zetes.com/contact as a user" time="21.331">
+<testsuite name="Cucumber" time="35.911" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="navigations" name="Creating new contact on https://confidens.zetes.com/contact as a user" time="19.288">
 <system-out><![CDATA[
 When User clicks People ID button...........................................passed
 And User clicks TRUST SERVICES button.......................................passed
@@ -14,6 +14,22 @@ And User enters business phone as "busphone"................................pass
 And User enters own message as "message"....................................passed
 Then User clicks yes or no checkbox.........................................passed
 And User click on submit button and verifies confirmation message...........passed
+]]></system-out>
+</testcase>
+<testcase classname="navigations" name="Creating new contact on https://confidens.zetes.com/contact as a user in negative scenario - user info lari - Example #1.1" time="16.462">
+<system-out><![CDATA[
+When User clicks People ID button...........................................passed
+And User clicks TRUST SERVICES button.......................................passed
+And User clicks CONTACT button..............................................passed
+Then User enters nfirstname as "12345"......................................passed
+Then User enters nlastname as "ozturk"......................................passed
+And User provides nemail as "abc@gmail.com".................................passed
+And User enters ncountry name as "Belgium"..................................passed
+When User enters ncompany as "ABC"..........................................passed
+And User enters nbusiness phone as "12345678"...............................passed
+And User enters own nmessage as "messsage"..................................passed
+Then User clicks yes or no checkbox.........................................passed
+And User click on submit button and verifies negative confirmation message..passed
 ]]></system-out>
 </testcase>
 </testsuite>

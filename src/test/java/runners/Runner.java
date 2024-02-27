@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
                 "html:target/reports/html-reports/cucember-zetes-report.html",
                 "json:target/reports/json-reports/cucember.json",
                 "junit:target/reports/xml-reports/cucember.xml",
-                "rerun:target/failedRerun.txt"
+                "rerun:target/failedRerun.txt",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         monochrome=true,
         features = "./src/test/resources/features",
